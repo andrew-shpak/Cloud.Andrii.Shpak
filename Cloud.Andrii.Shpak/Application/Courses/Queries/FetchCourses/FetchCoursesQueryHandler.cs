@@ -15,6 +15,7 @@ public class FetchCoursesQueryHandler : IRequestHandler<FetchCoursesQuery,IEnume
 
     public async Task<IEnumerable<Record>> Handle(FetchCoursesQuery request, CancellationToken cancellationToken)
     {
+        
         var entities = await _context.Find<Course>()
             .ExecuteAsync(cancellationToken);
 

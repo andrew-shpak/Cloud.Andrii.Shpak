@@ -1,4 +1,3 @@
-using System.Reflection;
 using Cloud.Andrii.Shpak.Controllers;
 using Cloud.Andrii.Shpak.Extensions;
 using FluentValidation;
@@ -23,8 +22,3 @@ app.AddCourses();
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
-
-// Validation
-// Connection DB 
-// CRUD + Entities
-// Logging
