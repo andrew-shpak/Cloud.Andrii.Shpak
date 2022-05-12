@@ -21,6 +21,6 @@
 - Додати можливість завантаження файлів на https://www.backblaze.com
 - Додати Endpoint для завантаження файлів із додатку React
 - github actions 
-- Додати Docker build + закидати image на docker hub
+- Додати Docker build + закидати image на github container registry
 
 
